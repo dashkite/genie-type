@@ -1,0 +1,19 @@
+levels:
+  - smallest
+  - smaller
+  - small
+  - default
+  - large
+  - larger
+  - largest
+container:
+  minimum: 20
+  maximum: 70
+  units: "ch"
+harmonic: 1/3
+spacing: 3/5
+start: 6
+scale:
+  factor: 0.25
+  units: "rem"
+responsiveness: 1
