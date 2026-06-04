@@ -44,8 +44,9 @@
   },
   "dependencies": {
     "@dashkite/masonry": "0.25.14",
-    "@dashkite/masonry-hooks": "^0.12.26",
-    "@dashkite/masonry-targets": "^0.13.22",
-    "js-yaml": "4.1.1"
+    "@dashkite/masonry-hooks": "link:../masonry-hooks",
+    "@dashkite/masonry-targets": "link:../masonry-targets",
+    "js-yaml": "4.1.1",
+    "@dashkite/joy": "link:../joy"
   }
 }
