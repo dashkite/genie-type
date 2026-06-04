@@ -8,15 +8,18 @@ importers:
 
   .:
     dependencies:
+      '@dashkite/joy':
+        specifier: link:../joy
+        version: link:../joy
       '@dashkite/masonry':
         specifier: 0.25.14
         version: 0.25.14
       '@dashkite/masonry-hooks':
-        specifier: ^0.12.26
-        version: 0.12.26
+        specifier: link:../masonry-hooks
+        version: link:../masonry-hooks
       '@dashkite/masonry-targets':
-        specifier: ^0.13.22
-        version: 0.13.22
+        specifier: link:../masonry-targets
+        version: link:../masonry-targets
       js-yaml:
         specifier: 4.1.1
         version: 4.1.1
@@ -948,17 +951,11 @@ packages:
   '@dashkite/masonry-export@0.7.0':
     resolution: {integrity: sha512-1Ll6nOYRKU2ylp9GH4UOG06g4otHxUW6q9xeIKxzwyrYXnHgWBRfS8Q18mDwWeT0Bcp1Qu9V/cDN1OsN9F0+/Q==}
 
-  '@dashkite/masonry-hooks@0.12.26':
-    resolution: {integrity: sha512-JL9IFni3ViWGmcihJQsJ4w7Y81bAI30/jiFlfOPbz4eMweNaU7SvMb9UYbja5SQoTmuFDnsu6YIjG2n5IzTnNw==}
-
   '@dashkite/masonry-hooks@0.8.0':
     resolution: {integrity: sha512-GqZt5YlYURo4j1v7qNjP0QxZ+Qb3pts/G2aPgVtL3ZHGwEYtj2fCf58nNUwmygdK89n3LiEY6RvR0uvmmKXMPA==}
 
   '@dashkite/masonry-targets@0.1.0':
     resolution: {integrity: sha512-nb1N+oBZLw04AFUV49ZFLBAb/NQ0fJseO6ACrEfgXkHra2I1oxwHxLIKtMqWcedQa3QP2pqA/eeBmtGiTQGM0Q==}
-
-  '@dashkite/masonry-targets@0.13.22':
-    resolution: {integrity: sha512-oDGkEhsQLaEYmPAHvsURvHLje+IFnKbeIqqVTtDMNAB6dEvl/i8/ciJ+SfdrGGE0H6qQCc9GFHS2cpX4Qbhh9Q==}
 
   '@dashkite/masonry-targets@0.9.0':
     resolution: {integrity: sha512-nIjZXgJpj0JMeErNhOfuqe2QVrYNFv+8ErF5rmmnGn9MJDvb9zkG1NdLxPt7uPRx/houtV7lrHEhSuS8AzBwDQ==}
@@ -4642,12 +4639,6 @@ snapshots:
 
   '@dashkite/masonry-export@0.7.0': {}
 
-  '@dashkite/masonry-hooks@0.12.26':
-    dependencies:
-      '@dashkite/masonry': 0.21.0
-    transitivePeerDependencies:
-      - supports-color
-
   '@dashkite/masonry-hooks@0.8.0':
     dependencies:
       '@dashkite/masonry': 0.14.0
@@ -4657,11 +4648,6 @@ snapshots:
   '@dashkite/masonry-targets@0.1.0':
     dependencies:
       '@dashkite/joy': 0.3.16
-      fast-glob: 3.3.3
-
-  '@dashkite/masonry-targets@0.13.22':
-    dependencies:
-      '@dashkite/joy': 0.7.0
       fast-glob: 3.3.3
 
   '@dashkite/masonry-targets@0.9.0':
